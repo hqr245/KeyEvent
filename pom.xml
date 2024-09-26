@@ -60,7 +60,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>es.ieslosmontecillos.keyevent/es.ieslosmontecillos.keyevent.HelloApplication
+                            <mainClass>es.ieslosmontecillos.keyevent/es.ieslosmontecillos.keyevent.KeyEvent
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
