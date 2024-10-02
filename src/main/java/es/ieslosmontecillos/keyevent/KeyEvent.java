@@ -8,15 +8,14 @@ import javafx.scene.layout.StackPane;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-import java.io.IOException;
 
 public class KeyEvent extends Application {
     @Override
-    public void start(Stage stage) throws IOException {
+    public void start(Stage stage) {
 
         Group root = new Group();
         Scene scene = new Scene(root, 320, 240);
-        stage.setTitle("Hello!");
+        stage.setTitle("KeyEvent");
         stage.setScene(scene);
 
         StackPane pane = new StackPane();
