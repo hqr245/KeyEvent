@@ -34,7 +34,6 @@ public class KeyEvent extends Application {
             switch (kC){
                 case UP:
                    text.setTranslateY(text.getTranslateY()-10);
-                    System.out.println(text.getTranslateY());
                     break;
                     case DOWN:
                         text.setTranslateY(text.getTranslateY()+10);
@@ -46,7 +45,7 @@ public class KeyEvent extends Application {
                                 text.setTranslateX(text.getTranslateX()+10);
                                 break;
                                 default:
-                                    event.consume();
+                                    text.setText(event.getText());
                                     break;
             }
 
